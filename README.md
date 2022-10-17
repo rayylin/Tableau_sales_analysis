@@ -1,7 +1,7 @@
-#Tableau_sales_analysis
+# Tableau_sales_analysis
 In this project, we are going to use Tableau to have a sales analysis
 
-#Raw data & data preprocessing
+# Raw data & data preprocessing
 We have two tables, PO data and customer data. We need to remove personal identifying information from data first (deidentification). We use python to achieve so.
 
 ![image](https://user-images.githubusercontent.com/58899897/196043531-b84543ce-a616-4e51-94ff-625be739593b.png)
@@ -41,7 +41,7 @@ To address this issue, we add the quantity value.
 
 ![image](https://user-images.githubusercontent.com/58899897/196044652-f6413b49-9437-4d8b-a7ae-c8292b1e63ae.png)
 
-We could see that the quantity increases, so the decrease in profit must come from the increase in costs or the decrease in unit price. However, we don't have much information for these two factors.
+We could see that the quantity increases, so the decrease in profit must come from the increase in costs or the decrease in unit price. However, we don't have much information for these two factors. The only factor about cost we have is delivery method. From this picture we could make a guess that the cost of method 2 may increase drastically and try to find new delivery method or new logitics partner.
 
 ![image](https://user-images.githubusercontent.com/58899897/196044827-3800f08c-0c3f-44dd-9437-34debaed2cb6.png)
 
